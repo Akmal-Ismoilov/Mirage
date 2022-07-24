@@ -114,6 +114,10 @@ body{
 }
 .button:hover{
     background-position: right center;
+    transition: 0.5s;
+}
+.container_main-services{
+    padding-bottom: 300px;
 }
 .our-services{
     text-align: center;
@@ -123,7 +127,9 @@ h2.main-section__subtitle{
     font-size: 52px;
     text-align: center;
 }
-
+.service-cards{
+    position: absolute;
+}
 .service-card{
     display: inline-block;
     width: 21%;
@@ -152,8 +158,8 @@ h2.main-section__subtitle{
 }
 .service-card:hover{
     background-color: #f899c1;
-    width: 310px;
-    height: 330px;
+    height: 350px;
+    transition: 1s;
 }
 .service-card:hover .service-card__title,
 .service-card:hover .service-card__discription{
